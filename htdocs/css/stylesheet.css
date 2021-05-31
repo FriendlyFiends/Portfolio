@@ -1,0 +1,101 @@
+body {
+    background-color: #2b2e4a;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/dsptest.jpg");
+    /* Set a specific height */
+    min-height: 625px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tagline {
+	display: block;
+	font-family: Cinzel Decorative, cursive;
+	font-size: 6.6875em;
+	line-height: 100%;
+    padding-top: 240px;
+    padding-bottom: 0px;
+	text-align: center;
+	width: 100%;
+    color: #e84545;
+}
+.footer {
+
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    display: block;
+    width: 100%;
+
+    padding-top: 30px;
+
+
+    background-color: white;
+
+
+    color: #2b2e4a;
+
+    text-align: center;
+}
+.heading {
+
+   display: block;
+	font-family: Cinzel Decorative, cursive;
+	font-size: 4em;
+	text-align: center;
+
+	width: 100%;
+    color: #e84545;
+    }
+.icons {
+    display: block;
+    float: left;
+    width: 5%;
+
+        
+}
+.text {
+    float:left;
+    background-color: #ece8e1;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 	0.3em;
+    color: 768079;
+    width: 35%;
+    line-height: 2;
+    margin: 4%;
+    margin-left: auto;
+    padding: 1%;
+  
+}
+img {
+    float:left;
+}
+.link {
+    color: #e84545; 
+    padding-bottom: 20px;
+}
+.break {
+
+    background-color: white;
+    font-size: 10px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.breakdark {
+
+    background-color: #f2f2f2;
+    font-size: 10px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.row {
+    padding-left: 8%;
+}
